@@ -1,0 +1,88 @@
+.app-container {
+    position: relative;
+    background-image: url('../../assets/lens.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+   
+  }
+  .area-content{
+    display:flex;
+    text-align: center;
+    padding:10rem;
+  }
+  
+  .text-title{
+    font-size: 80px;
+    color:white;
+  }
+  .list-name{
+    font-size: 70px;
+    list-style: none;
+    font-weight: 600;
+  }
+  .text-container {
+    display: flex; 
+    height:600px;
+  }
+  
+  .main-text {
+    flex: 1; 
+    padding-right: 20px; 
+    text-align: center;
+    padding-top: 200px;
+  }
+  
+  .side-text {
+    flex: 1; 
+   padding-top:80px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .side-text ul {
+    
+    padding: 0;
+  }
+  
+  .side-text ul li {
+    margin-bottom: 10px;
+  }
+  .card-box{
+    display:flex;
+  justify-content: center;
+  }
+  .cards{
+  width:300px;
+  height:300px;
+  color:black;
+  background-color: #FFBF00;
+  border-radius:5px;
+  margin:20px;
+  text-align: center;
+  transition: background-color 0.3s;
+  border:0.5px solid #111;
+  }
+  .cards:hover{
+    box-shadow: 3px 3px 3px grey;
+  }
+  .cards-texts{
+    padding-left:50px;
+    padding-top:50px;
+    font-size: 20px;;
+  }
+  .suppoters-title{
+    text-align: center;
+    font-size: 77px;
+    margin-bottom: 90px;
+  }
+  .suppoters-logo{
+  display:flex;
+  margin:10px;
+  justify-content: space-between;
+  
+  }
+  .suppoters-logo img{
+    width:200px;
+  }
+  
