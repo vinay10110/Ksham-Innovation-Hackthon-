@@ -1,15 +1,16 @@
-import React from 'react'
-import './Home.css'
-import small from '../../assets/small.mp4';
+import React from 'react';
+import './Home.css';
 import google from '../../assets/google.png';
 import iitkanpur from '../../assets/iitkanpur.png';
 import iitmandi from '../../assets/iitmandi.png';
-import samsung from '../../assets/samsung.png'
+import samsung from '../../assets/samsung.png';
 import  atal from '../../assets/atal.png';
 import blind from '../.././assets/Animation - 1712479325017.json';
 import charge from '../.././assets/Animation - 1712479484099.json';
 import deaf from '../.././assets/Animation - 1712479906991.json';
-import mute from '../.././assets/Animation - 1712473651126.json'
+import mute from '../.././assets/Animation - 1712471955380.json';
+import { Link } from 'react-router-dom';
+import Lottie from 'lottie-react';
 const Home = () => {
   return (
     <div className="container-htm">
@@ -20,9 +21,8 @@ const Home = () => {
         
           <h1 className="list-name">Deaf, Mute &  Blind</h1>
         
-        <div className="btn">Get Early Access</div>
+        <Link to="/Contact"><div className="btn-early">Get Early Access</div></Link>
       </div>
-      
       </div>
   </div>
   <div className="text-container">
@@ -41,6 +41,7 @@ const Home = () => {
   <div className="card-box">
     <div className="cards">
       <h1>Glasses for Deaf & Hard of hearing</h1>
+      <Lottie animationData={deaf} className="lottie-icons"/>
       <ul className='cards-texts'>
         <li>Patented Dome Bone Conduction Transducer</li> 
         <li>Arrays of Microphones</li>
@@ -49,6 +50,7 @@ const Home = () => {
     </div>
     <div className="cards">
       <h1>Glasses for Blind</h1>
+      <Lottie animationData={blind} className="lottie-icons"/>
       <ul className='cards-texts'>
         <li>Objects & Face Recognition</li> 
         <li>1080p front camera</li>
@@ -56,6 +58,7 @@ const Home = () => {
     </div>
     <div className="cards">
       <h1>Glasses for Mute</h1>
+      <Lottie animationData={mute} className="lottie-icons"/>
       <ul className='cards-texts'>
         <li>Real time sign language to audio conversion</li> 
         <li>Pairs of side camera & speaker.</li>
@@ -64,6 +67,7 @@ const Home = () => {
     </div>
     <div className="cards">
       <h1>Smart Case</h1>
+      <Lottie animationData={charge} className="lottie-icons"/>
       <ul className='cards-texts'v>
         <li>Day long battery backup</li> 
         <li>Desktop computer mode.</li>

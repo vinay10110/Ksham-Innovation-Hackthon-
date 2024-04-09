@@ -44,16 +44,18 @@
 
 
 @media screen and (max-width: 768px) {
- 
   .videoBig {
-    margin: 20px; 
+    margin: 20px auto; 
+    max-width: calc(100% - 40px); 
     flex-direction: column; 
   }
 
   .card-container {
-    width: 90%; 
-    height: auto; 
+    width: 100%; 
+    max-width: 90%; 
     margin: 20px auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
   }
 
   .card-text {

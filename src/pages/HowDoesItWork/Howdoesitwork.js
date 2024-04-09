@@ -20,4 +20,4 @@ The open ear design makes able glasses a complete smart glasses device for every
   )
 }
 
-export default Howdoesitwork
+export default Howdoesitwork;

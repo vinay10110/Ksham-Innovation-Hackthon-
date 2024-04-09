@@ -4,7 +4,7 @@
   align-items: center;
   background-color: #1B1212;
   color: #fff;
-  padding: 10px 20px;
+  padding: 2px 20px;
   position: sticky; 
   top: 0; 
   z-index: 1000;
@@ -12,7 +12,7 @@
 }
 
 .navbar-logo {
-  font-size: 1.5rem;
+  width:10px;
 }
 
 .navbar-toggle {
@@ -70,4 +70,9 @@
    margin:10px 0px;
     
   }
+  .navbar-toggle{
+    width:50px;
+    
+  }
+  
 }

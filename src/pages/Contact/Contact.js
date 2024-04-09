@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
-
+import { AiTwotonePhone } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
 const Contact = () => {
 
   return (
@@ -41,6 +42,10 @@ const Contact = () => {
       />
     
     <button type="submit">Submit</button>
+    <span className='number'><AiTwotonePhone color="white" size={27}/>+91 9373124725</span>
+    <br></br>
+    <span className='number'><MdEmail  color="white" size={27} />   Kshaminnovation@gmail.com</span>
+    
   </form>
   );
 };

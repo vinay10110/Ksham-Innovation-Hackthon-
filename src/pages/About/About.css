@@ -6,6 +6,7 @@
   
   .logo {
     width: 20%;
+    padding-left: 150px;
   }
   
   .logo-head {
@@ -62,6 +63,7 @@
     height: 400px;
     border-radius: 5px;
     padding-left: 45px;
+    font-size: 30px;
   }
   
   .typo-title {
@@ -73,46 +75,62 @@
   
  
   @media screen and (max-width: 768px) {
-
     .logo-container {
       flex-direction: column;
-      align-items: center;
+      border:2px solid black;
     }
   
     .logo-head {
-      width: 80%;
-      margin: 20px;
+      width: 85%;
+      height:60px;
     }
-  
+  .logo-container-title{
+    font-size: 30px;
+  }
     .logo-text {
-      width: 100%;
-      height: auto;
-      font-size: 24px;
-      padding: 40px;
+      width: 54%; 
+      height: 120px;
+      font-size: 14px;
+      padding-top: 20px;
+      
     }
-  
+ .description{
+  display:inline;
+ }
     .description-title {
-      font-size: 40px;
-      padding-top: 40px;
+      font-size: 30px;
+     padding:40px;
+      
+      width:79%;
+      text-align: center;
+     
     }
   
     .description-text {
-      font-size: 20px;
+      font-size: 14px;
+      width:99%;
     }
   
-    .typo {
-      flex-direction: column;
-      align-items: center;
+    .typo{
+      display:flex;
     }
   
     .typo-text {
-      width: 90%;
-      height: auto;
-      padding: 20px;
+      width: 50%; 
+      height: 600px;
+      padding-left:8px;
+      text-align: center; 
+      font-size:14px;
+      border:2px solid green;
     }
   
     .typo-title {
-      font-size: 60px;
-      padding-right: 20px;
+      font-size: 30px;
+  padding-top:90px;
+  padding-left:20px;
+      border:2px solid red;
+      width:20%;
+      display:inline;
+      
     }
   }

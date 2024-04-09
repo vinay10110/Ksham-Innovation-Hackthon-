@@ -8,8 +8,8 @@ const About = () => {
   const [text]=useTypewriter({
     words:['Our vision is to leverage cutting-edge technology to empower individuals with hearing, speech, or visual impairments, fostering a more inclusive and accessible world. We envision a future where our smart glasses become a bridge to communication, independence, and endless possibilities, allowing everyone, regardless of their abilities, to connect, express themselves, and thrive in our interconnected society.'],
     loop:{},
-    typeSpeed:40,
-    deleteSpeed:60
+    typeSpeed:25,
+    deleteSpeed:25
   })
   return (
     <div className="about-container">
@@ -25,11 +25,11 @@ const About = () => {
    </div>
    <div className="typo">
     <div className="typo-text">
-      <h1>
+      
       <span>{text}</span>
 
 <Cursor />
-</h1>
+
     </div>
     <div className="typo-title">
       Our Vision

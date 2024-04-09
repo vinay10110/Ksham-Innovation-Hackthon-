@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css'; 
 import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -30,19 +31,23 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeNavbar = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className={`navbar ${isSticky ? 'sticky' : ''}`}>
-      <div className="navbar-logo"><img src={logo} alt="logo" /></div>
+<div className="navbar-logo"><img src={logo} alt="logo" /></div>
       {isMobile && ( 
         <button className="navbar-toggle" onClick={toggleNavbar}>
           <span className="navbar-toggle-icon">&#9776;</span>
         </button>
       )}
       <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
-        <li><Link to="/" className="navbar-link">Home</Link></li>
-        <li><Link to="/About" className="navbar-link">About</Link></li>
-        <li><Link to="/Howdoesitwork" className="navbar-link">How Does it Work?</Link></li>
-        <li><Link to="/Contact" className="navbar-link">Contact</Link></li> 
+        <li><Link to="/" className="navbar-link" onClick={isMobile ? closeNavbar : null}>Home</Link></li>
+        <li><Link to="/About" className="navbar-link" onClick={isMobile ? closeNavbar : null}>About</Link></li>
+        <li><Link to="/Howdoesitwork" className="navbar-link" onClick={isMobile ? closeNavbar : null}>How Does it Work?</Link></li>
+        <li><Link to="/Contact" className="navbar-link" onClick={isMobile ? closeNavbar : null}>Contact</Link></li> 
       </ul>
     </nav>
   );
