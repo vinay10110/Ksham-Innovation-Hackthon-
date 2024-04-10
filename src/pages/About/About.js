@@ -26,14 +26,14 @@ const About = () => {
    <div className="typo">
     <div className="typo-text">
       
-      <span>{text}</span>
+      <span><b>{text}</b></span>
 
 <Cursor />
 
     </div>
     <div className="typo-title">
-      Our Vision
-      <Lottie animationData={vision} className='logo'/>
+     Our Vision
+      <Lottie animationData={vision} className='logo2'/>
     </div>
    </div>
    <div className="description">

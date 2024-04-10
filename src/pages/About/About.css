@@ -73,11 +73,12 @@
     padding-right: 80px;
   }
   
- 
+ .logo2{
+  width:100px;
+ }
   @media screen and (max-width: 768px) {
     .logo-container {
       flex-direction: column;
-      border:2px solid black;
     }
   
     .logo-head {
@@ -117,20 +118,21 @@
   
     .typo-text {
       width: 50%; 
-      height: 600px;
+      height: 300px;
       padding-left:8px;
       text-align: center; 
       font-size:14px;
-      border:2px solid green;
     }
   
     .typo-title {
       font-size: 30px;
   padding-top:90px;
   padding-left:20px;
-      border:2px solid red;
       width:20%;
-      display:inline;
+      display: inline;
       
+    }
+    .logo2{
+      width:50px;
     }
   }
