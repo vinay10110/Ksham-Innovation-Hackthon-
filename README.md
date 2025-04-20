@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Able Glasses - Smart Aid Glasses for Deaf, Mute, and Blind
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is the Project About?
+Able Glasses is an innovative smart aid device developed by Ksham Innovation that aims to break down barriers and make technology accessible to everyone. It's the world's first smart glasses solution designed specifically to assist people with hearing, speech, and visual impairments.
 
-## Available Scripts
+## What Does It Do?
+The project provides three main functionalities:
 
-In the project directory, you can run:
+### For Deaf & Hard of Hearing:
+- Uses patented Dome Bone Conduction Transducer technology
+- Features arrays of microphones for sound detection
+- Includes Bluetooth connectivity and is rechargeable
 
-### `npm start`
+### For Blind Users:
+- Provides object and face recognition capabilities
+- Features a 1080p front camera for visual input
+- Converts visual information to audio feedback
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### For Mute Users:
+- Real-time sign language to audio conversion
+- Equipped with pairs of side cameras and speakers
+- Supports offline processing for reliability
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Real-Life Impact
+This project addresses critical needs in society:
+- Serves a global community of over 680 million people who are deaf, hard of hearing, mute, or blind
+- Particularly impactful in India, where over 80 million individuals have these disabilities
+- Helps bridge the education and communication gap, as currently 90% of these individuals lack access to proper education
+- Enables greater independence and improved quality of life for users
+- Provides a safer alternative to traditional earbuds and headphones
 
-### `npm test`
+## Tech Stack
+The project is built using modern web technologies:
+- React.js for frontend development
+- React Router for navigation
+- CSS3 for styling and animations
+- Lottie for interactive animations
+- Responsive design for mobile and desktop compatibility
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Architecture
+The application follows a component-based architecture:
+- Navigation system with responsive design
+- Home page with feature showcase
+- About section with company vision
+- How It Works demonstration
+- Contact form for early access
+- Footer with social media integration
 
-### `npm run build`
+## Frameworks and Libraries
+- React.js
+- React Router DOM
+- React Icons
+- Lottie React
+- React Simple Typewriter
+- Browser Router for routing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Development and Installation
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the development server:
+```bash
+npm start
+```
+4. Build for production:
+```bash
+npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Support and Partners
+The project is supported by prestigious organizations:
+- ATAL
+- IIT Kanpur
+- Samsung
+- Google
+- IIT Mandi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact
+For more information or early access:
+- Email: Kshaminnovation@gmail.com
+- Phone: +91 9373124725
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Copyright © Ksham Innovation 2023. All Rights Reserved.
